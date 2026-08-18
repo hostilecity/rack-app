@@ -10,7 +10,7 @@ env:
   TARGET_VM_HOST: "security-vm.hostilecity.net"
   TARGET_VM_USER: "engineer"
   APP_NAME: "rack-app"
-  DEPLOY_DIR: "/home/ubuntu/build-temp"
+  DEPLOY_DIR: "/home/engineer/build-temp"
 
 jobs:
   deploy-to-vm:
