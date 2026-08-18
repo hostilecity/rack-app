@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rack'
+gem 'rackup'
+gem 'webrick'
 
 group :development, :test do
   gem 'pry'

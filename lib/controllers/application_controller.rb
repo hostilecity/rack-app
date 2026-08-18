@@ -12,6 +12,6 @@ class ApplicationController
   end
 
   def default_headers
-    { 'Content-Type' => 'text/html' }
+    { 'content-type' => 'text/html' }
   end
 end

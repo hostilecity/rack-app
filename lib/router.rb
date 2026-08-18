@@ -24,8 +24,7 @@ class Router
   end
 
   def matched_route
-    _route, action = routes.detect { |route, _action| route == path }
-    action
+    routes[path]
   end
 
   def path
